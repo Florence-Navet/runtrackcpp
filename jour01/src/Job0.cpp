@@ -4,6 +4,6 @@
 int main()
 /*std pour standard*/
 {
-    std::cout << "Hello World!";
+    std::cout << "Hello chouquette !";
     return 0;
 }
