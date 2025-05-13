@@ -5,7 +5,7 @@ project(HelloWorld VERSION 0.1.0 LANGUAGES C CXX)
 # include(CTest)
 # enable_testing()
 
-add_executable(HelloWorld src/Job0.cpp)
+add_executable(HelloWorld src/add.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
