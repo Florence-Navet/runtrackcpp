@@ -1,41 +1,49 @@
 # runtrackcpp
-runtrack c++ pour apprendre les bases du  langages  
-  
+
+runtrack c++ pour apprendre les bases du langages
+
 1. pour compiler dans le terminal  
-installer dans le bash MINGW664  
-  
+   installer dans le bash MINGW664
+
 ```bash
 sudo apt-get update
 sudo apt-get install g++
-```  
-  
-puis compiler avec la commande  
+```
+
+puis compiler avec la commande
+
 ```bash
 g++ nomfichier.cpp -o nomfichier && ./nomfichier
-```  
-  
----  
-2. Extension à installer :  
-- C++  Extention Pack  
-- code Runner  
-- Material Icon Theme  
-  
+```
+
+---
+
+2. Extension à installer :
+
+- C++ Extention Pack
+- code Runner
+- Material Icon Theme
+
 3. installer msys2  
-l'executer  
-dans le terminal je tape la chaine de  commande pour compiler : 
+   l'executer  
+   dans le terminal je tape la chaine de commande pour compiler :
+
 ```bash
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
-```  
-ajouter le compilateur au variable d'environnement  
+```
+
+ajouter le compilateur au variable d'environnement
 
 4. CMAKE  
-puis download version windows  
-ajout chemin au variable d'environnement  
+   puis download version windows  
+   ajout chemin au variable d'environnement
+
 ```lien
 https://cmake.org/download/
-```  
-  
-5. statusbar-tasks.json  
+```
+
+5. statusbar-tasks.json
+
 ```json
 {
   "tasks.commands": [
@@ -51,10 +59,10 @@ https://cmake.org/download/
     }
   ]
 }
+```
 
-```  
-  
-6. tasks.json  
+6. tasks.json
+
 ```json
 {
   "version": "2.0.0",
@@ -99,10 +107,10 @@ https://cmake.org/download/
     }
   ]
 }
+```
 
-```  
-  
-7. CMakelists.txt  
+7. CMakelists.txt
+
 ```bash
 cmake_minimum_required(VERSION 3.10.0)
 
@@ -116,12 +124,6 @@ add_executable(HelloWorld src/Job0.cpp)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
-```  
-  
----  
-  
+```
 
-
-
-
-  
+---
