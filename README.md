@@ -127,3 +127,13 @@ include(CPack)
 ```
 
 ---
+
+g++ --version
+
+gdb --version
+
+git --version
+
+cmake --version
+
+---
