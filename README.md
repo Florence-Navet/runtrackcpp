@@ -140,18 +140,18 @@ cmake --version
 
 
 
-Description	            |  Séquence d'échappement
-saut de ligne	          |          \n  
-barre oblique inverse	  |          \\  
-tabulation horizontale	|          \t
-tabulation verticale	  |          \v  
-quote unique	          |          \'  
-retour arrière	        |          \b  
-guillemet double	      |          \"  
-retour chariot	        |          \r  
-caractère Null	        |          \0  
-saut de page	          |          \f  
-  
+| **Description**            | **Séquence d'échappement** |   
+|----------------------------|----------------------------|   
+| Saut de ligne              | `\n`                       |  
+| Tabulation horizontale     | `\t`                       |  
+| Tabulation verticale       | `\v`                       |  
+| Quote unique               | `\'`                       |  
+| Retour arrière             | `\b`                       |
+| Guillemet double           | `\"`                       |  
+| Retour chariot             | `\r`                       |  
+| Caractère Null             | `\0`                       |    
+| Saut de page               | `\f`                       |  
+
   
      
 nano ~/.bashrc  
