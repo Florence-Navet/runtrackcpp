@@ -10,7 +10,7 @@ sudo apt-get update
 sudo apt-get install g++
 ```
 
-puis compiler avec la commande
+puis compiler avec la commande bash msys2 jaune
 
 ```bash
 g++ nomfichier.cpp -o nomfichier && ./nomfichier
