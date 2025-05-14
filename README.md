@@ -137,3 +137,26 @@ git --version
 cmake --version
 
 ---
+
+
+
+Description	            |  Séquence d'échappement
+saut de ligne	          |          \n  
+barre oblique inverse	  |          \\  
+tabulation horizontale	|          \t
+tabulation verticale	  |          \v  
+quote unique	          |          \'  
+retour arrière	        |          \b  
+guillemet double	      |          \"  
+retour chariot	        |          \r  
+caractère Null	        |          \0  
+saut de page	          |          \f  
+  
+  
+     
+nano ~/.bashrc  
+export PATH="/c/Program Files/Git/cmd:$PATH"  
+source ~/.bashrc  
+  
+
+
