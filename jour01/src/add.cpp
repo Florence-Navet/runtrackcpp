@@ -9,7 +9,7 @@ int main()
 
     std::cout << a << std::endl;
     std::cout << b << std::endl;
-    std::cout << C << std::endl;
+    std::cout << c << std::endl;
 
     return 0;
 }
