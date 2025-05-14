@@ -1,8 +1,8 @@
 [
 {
   "directory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build",
-  "command": "C:/TDM-GCC-64/bin/g++.exe   -g -o CMakeFiles/HelloWorld.dir/src/adeline.cpp.obj -c E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/src/adeline.cpp",
-  "file": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/src/adeline.cpp",
-  "output": "CMakeFiles/HelloWorld.dir/src/adeline.cpp.obj"
+  "command": "C:/TDM-GCC-64/bin/g++.exe   -g -o CMakeFiles/HelloWorld.dir/src/Job4.cpp.obj -c E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/src/Job4.cpp",
+  "file": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/src/Job4.cpp",
+  "output": "CMakeFiles/HelloWorld.dir/src/Job4.cpp.obj"
 }
 ]
