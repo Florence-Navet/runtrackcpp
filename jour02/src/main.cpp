@@ -9,6 +9,7 @@ int main()
     std::cout << "Ceci est un message d'information" << std::endl;
     std::cerr << "Ceci est un message d'erreur" << std::endl;
     std::clog << "Ceci est un message de log" << std::endl;
+    std::cout << "ce message provient du fichier" <<__FILE__<<"et de la ligne"<<__LINE__<<"le"<<__DATE__<<"a l'heure"<<__TIME__;
 
-    return 0;
+
 }

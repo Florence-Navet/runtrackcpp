@@ -34,9 +34,9 @@
 # Ignorer les fichiers sensibles et inutiles
 node_modules/
 .env
-.vscode/
+
 .DS_Store
 
 #ignore les json
-*.json
+
 
