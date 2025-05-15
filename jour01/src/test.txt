@@ -5,13 +5,13 @@ using namespace std;
 int main() {
     int nombre;
 
-    cout << "Entrez un entier : ";
+    cout << "Entrez un nombre entier : ";
     cin >> nombre;
 
-    cout << "\nTable de multiplication de " << nombre << " :\n";
-
-    for (int i = 1; i <= 10; ++i) {
-        cout << nombre << " x " << i << " = " << nombre * i << endl;
+    if (nombre % 2 == 0) {
+        cout << nombre << " est pair." << endl;
+    } else {
+        cout << nombre << " est impair." << endl;
     }
 
     return 0;
