@@ -1,17 +1,22 @@
 #include <iostream>
 
 int main() {
-    int somme = 0;
-    int entier;
+    int N;
+    long long somme = 0;
 
-    std::cout << "Entrez cinq entiers :" << std::endl;
+    std::cout << "Entrez un entier N (>= 5) : ";
+    std::cin >> N;
 
-    for (int i = 0; i < 5; ++i) {
-        std::cin >> entier;
-        somme += entier;
+    if (N < 5) {
+        std::cout << "Erreur : N doit être supérieur ou égal à 5." << std::endl;
+        return 1;
     }
 
-    std::cout << "La moyenne est : " << (somme / 5.0) << std::endl;
+    for (int i = 5; i <= N; ++i) {
+        somme += i * i * i;  // i^3, multiplication d'entiers (promu en long long automatiquement)
+    }
+
+    std::cout << "La somme des cubes de 5^3 à " << N << "^3 est : " << somme << std::endl;
 
     return 0;
 }
