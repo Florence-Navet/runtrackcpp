@@ -1,22 +1,17 @@
 #include <iostream>
 
 int main() {
-    int n, m;
+    int somme = 0;
+    int entier;
 
-    std::cout << "Entrez la valeur de n : ";
-    std::cin >> n;
+    std::cout << "Entrez cinq entiers :" << std::endl;
 
-    std::cout << "Entrez la valeur de m : ";
-    std::cin >> m;
+    for (int i = 0; i < 5; ++i) {
+        std::cin >> entier;
+        somme += entier;
+    }
 
-    std::cout << "Avant l'échange : n = " << n << ", m = " << m << std::endl;
-
-    // Échange des valeurs
-    int temp = n;
-    n = m;
-    m = temp;
-
-    std::cout << "Après l'échange : n = " << n << ", m = " << m << std::endl;
+    std::cout << "La moyenne est : " << (somme / 5.0) << std::endl;
 
     return 0;
 }
