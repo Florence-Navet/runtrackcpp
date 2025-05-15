@@ -1,24 +1,21 @@
 #include <iostream>
-using namespace std;
 
 int main() {
-    int a, b, c;
+    double prixHT, kilos, tva;
 
-    cout << "Entrez le premier entier : ";
-    cin >> a;
-    cout << "Entrez le deuxième entier : ";
-    cin >> b;
-    cout << "Entrez le troisième entier : ";
-    cin >> c;
+    std::cout << "Entrez le prix HT d'un kilo de carottes (€) : ";
+    std::cin >> prixHT;
 
-    int max = a;
+    std::cout << "Entrez le nombre de kilos de carottes : ";
+    std::cin >> kilos;
 
-    if (b > max)
-        max = b;
-    if (c > max)
-        max = c;
+    std::cout << "Entrez le taux de TVA (%) : ";
+    std::cin >> tva;
 
-    cout << "Le plus grand nombre est : " << max << endl;
+    // Calcul du prix TTC
+    double prixTTC = prixHT * kilos * (1 + tva / 100);
+
+    std::cout << "Le prix TTC est : " << prixTTC << " €" << std::endl;
 
     return 0;
 }

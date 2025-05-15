@@ -28,17 +28,6 @@ int main() {
 
         std::cout << "Le plus grand des trois nombre est :" << maximum << std::endl;
      
-
-
-
-
-
-
-
-
-
-
-    
         
         return 0;
 
