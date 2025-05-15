@@ -1,21 +1,22 @@
 #include <iostream>
 
 int main() {
-    double prixHT, kilos, tva;
+    int n, m;
 
-    std::cout << "Entrez le prix HT d'un kilo de carottes (€) : ";
-    std::cin >> prixHT;
+    std::cout << "Entrez la valeur de n : ";
+    std::cin >> n;
 
-    std::cout << "Entrez le nombre de kilos de carottes : ";
-    std::cin >> kilos;
+    std::cout << "Entrez la valeur de m : ";
+    std::cin >> m;
 
-    std::cout << "Entrez le taux de TVA (%) : ";
-    std::cin >> tva;
+    std::cout << "Avant l'échange : n = " << n << ", m = " << m << std::endl;
 
-    // Calcul du prix TTC
-    double prixTTC = prixHT * kilos * (1 + tva / 100);
+    // Échange des valeurs
+    int temp = n;
+    n = m;
+    m = temp;
 
-    std::cout << "Le prix TTC est : " << prixTTC << " €" << std::endl;
+    std::cout << "Après l'échange : n = " << n << ", m = " << m << std::endl;
 
     return 0;
 }
