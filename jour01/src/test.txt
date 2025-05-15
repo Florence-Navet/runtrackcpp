@@ -1,22 +1,20 @@
 #include <iostream>
 
 int main() {
-    int N;
-    long long somme = 0;
+    int nombre, inverse = 0;
 
-    std::cout << "Entrez un entier N (>= 5) : ";
-    std::cin >> N;
+    std::cout << "Entrez un nombre entier : ";
+    std::cin >> nombre;
 
-    if (N < 5) {
-        std::cout << "Erreur : N doit être supérieur ou égal à 5." << std::endl;
-        return 1;
+    int temp = nombre;
+
+    while (temp != 0) {
+        int chiffre = temp % 10;          // récupère le dernier chiffre
+        inverse = inverse * 10 + chiffre; // ajoute le chiffre inversé
+        temp /= 10;                      // enlève le dernier chiffre
     }
 
-    for (int i = 5; i <= N; ++i) {
-        somme += i * i * i;  // i^3, multiplication d'entiers (promu en long long automatiquement)
-    }
-
-    std::cout << "La somme des cubes de 5^3 à " << N << "^3 est : " << somme << std::endl;
+    std::cout << "Le nombre inversé de " << nombre << " est " << inverse << std::endl;
 
     return 0;
 }
