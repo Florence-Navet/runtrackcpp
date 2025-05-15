@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int nombre;
+
+    cout << "Entrez un entier : ";
+    cin >> nombre;
+
+    cout << "\nTable de multiplication de " << nombre << " :\n";
+
+    for (int i = 1; i <= 10; ++i) {
+        cout << nombre << " x " << i << " = " << nombre * i << endl;
+    }
+
+    return 0;
+}
