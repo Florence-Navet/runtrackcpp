@@ -158,5 +158,14 @@ nano ~/.bashrc
 export PATH="/c/Program Files/Git/cmd:$PATH"  
 source ~/.bashrc  
   
+---  
+  
+## Pour avoir des commentaires styles  
+  
+extension 'Doxygen Documentation generator'  
+puis faire  
+/** et touche entrée  
+  
+---  
 
 
