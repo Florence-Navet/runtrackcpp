@@ -1,7 +1,7 @@
 /**
  * @file puissance.cpp
- * @author your name (you@domain.com)
- * @brief
+ * @author your name (enolaworld@gmail.com)
+ * @brief fichier qui continer la puissance d'un entier
  * @version 0.1
  * @date 2025-05-16
  *
