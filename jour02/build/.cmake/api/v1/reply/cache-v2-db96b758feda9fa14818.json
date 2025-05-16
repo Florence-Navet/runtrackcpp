@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour02/build"
+			"value" : "e:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour02/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour02/build/CMakeFiles/pkgRedirects"
+			"value" : "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour02/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour02"
+			"value" : "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour02"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1511,7 +1511,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour02/build"
+			"value" : "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour02/build"
 		},
 		{
 			"name" : "HelloWorld_IS_TOP_LEVEL",
@@ -1535,7 +1535,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour02"
+			"value" : "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour02"
 		}
 	],
 	"kind" : "cache",
