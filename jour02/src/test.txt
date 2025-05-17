@@ -1,16 +1,15 @@
-
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     int a, b;
-    cout << "Entrez deux entiers (a et b): ";
+    cout << "Entrez deux entiers (a et b) : ";
     cin >> a >> b;
 
-    for (int i = a; i <= b; i++)
-    {
+    int i = a;
+    while (i <= b) {
         cout << i << " ";
+        i++;
     }
     cout << endl;
 
