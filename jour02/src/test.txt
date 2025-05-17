@@ -1,31 +1,18 @@
+
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int nombre(0);
+    int a, b;
+    cout << "Entrez deux entiers (a et b): ";
+    cin >> a >> b;
 
-    cout << "Entrez un nombre entier: ";
-    cin >> nombre;
-
-    for (int i = 1; i <= nombre; i++)
+    for (int i = a; i <= b; i++)
     {
-        if (i % 3 == 0 && i % 5 == 0)
-        {
-            cout << i << " est un multiple de 3 et de 5 " << endl;
-        }
-        else if (i % 3 == 0)
-        {
-            cout << i << " est un multiple de 3 " << endl;
-        }
-        else if (i % 5 == 0)
-        {
-            cout << i << " est un multiple de 5 " << endl;
-        }
-        else
-        {
-            cout << i << " n'est pas multiple de 3 ou 5" << endl;
-        }
+        cout << i << " ";
     }
+    cout << endl;
+
     return 0;
 }
