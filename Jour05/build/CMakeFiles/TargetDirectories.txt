@@ -1,0 +1,5 @@
+E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/build/CMakeFiles/Dyma.dir
+E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/build/CMakeFiles/package.dir
+E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/build/CMakeFiles/package_source.dir
+E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/build/CMakeFiles/edit_cache.dir
+E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/build/CMakeFiles/rebuild_cache.dir
