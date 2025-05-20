@@ -72,28 +72,28 @@ include CMakeFiles/Dyma.dir/flags.make
 CMakeFiles/Dyma.dir/codegen:
 .PHONY : CMakeFiles/Dyma.dir/codegen
 
-CMakeFiles/Dyma.dir/src/boucle.cpp.obj: CMakeFiles/Dyma.dir/flags.make
-CMakeFiles/Dyma.dir/src/boucle.cpp.obj: E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/src/boucle.cpp
-CMakeFiles/Dyma.dir/src/boucle.cpp.obj: CMakeFiles/Dyma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dyma.dir/src/boucle.cpp.obj"
-	C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dyma.dir/src/boucle.cpp.obj -MF CMakeFiles/Dyma.dir/src/boucle.cpp.obj.d -o CMakeFiles/Dyma.dir/src/boucle.cpp.obj -c E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/src/boucle.cpp
+CMakeFiles/Dyma.dir/src/auto.cpp.obj: CMakeFiles/Dyma.dir/flags.make
+CMakeFiles/Dyma.dir/src/auto.cpp.obj: E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/src/auto.cpp
+CMakeFiles/Dyma.dir/src/auto.cpp.obj: CMakeFiles/Dyma.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dyma.dir/src/auto.cpp.obj"
+	C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dyma.dir/src/auto.cpp.obj -MF CMakeFiles/Dyma.dir/src/auto.cpp.obj.d -o CMakeFiles/Dyma.dir/src/auto.cpp.obj -c E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/src/auto.cpp
 
-CMakeFiles/Dyma.dir/src/boucle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dyma.dir/src/boucle.cpp.i"
-	C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/src/boucle.cpp > CMakeFiles/Dyma.dir/src/boucle.cpp.i
+CMakeFiles/Dyma.dir/src/auto.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dyma.dir/src/auto.cpp.i"
+	C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/src/auto.cpp > CMakeFiles/Dyma.dir/src/auto.cpp.i
 
-CMakeFiles/Dyma.dir/src/boucle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dyma.dir/src/boucle.cpp.s"
-	C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/src/boucle.cpp -o CMakeFiles/Dyma.dir/src/boucle.cpp.s
+CMakeFiles/Dyma.dir/src/auto.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dyma.dir/src/auto.cpp.s"
+	C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Jour05/src/auto.cpp -o CMakeFiles/Dyma.dir/src/auto.cpp.s
 
 # Object files for target Dyma
 Dyma_OBJECTS = \
-"CMakeFiles/Dyma.dir/src/boucle.cpp.obj"
+"CMakeFiles/Dyma.dir/src/auto.cpp.obj"
 
 # External object files for target Dyma
 Dyma_EXTERNAL_OBJECTS =
 
-Dyma.exe: CMakeFiles/Dyma.dir/src/boucle.cpp.obj
+Dyma.exe: CMakeFiles/Dyma.dir/src/auto.cpp.obj
 Dyma.exe: CMakeFiles/Dyma.dir/build.make
 Dyma.exe: CMakeFiles/Dyma.dir/linkLibs.rsp
 Dyma.exe: CMakeFiles/Dyma.dir/objects1.rsp

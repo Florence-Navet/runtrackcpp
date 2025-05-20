@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/Jour05",
-  "cmake.buildDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/Jour05/build",
+  "cmake.sourceDirectory": "${workspaceFolder}/Jour05",
+  "cmake.buildDirectory": "${workspaceFolder}/Jour05/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",

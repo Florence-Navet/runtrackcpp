@@ -149,29 +149,29 @@ Dyma/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dyma.dir/build.make CMakeFiles/Dyma.dir/build
 .PHONY : Dyma/fast
 
-src/boucle.obj: src/boucle.cpp.obj
-.PHONY : src/boucle.obj
+src/auto.obj: src/auto.cpp.obj
+.PHONY : src/auto.obj
 
 # target to build an object file
-src/boucle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dyma.dir/build.make CMakeFiles/Dyma.dir/src/boucle.cpp.obj
-.PHONY : src/boucle.cpp.obj
+src/auto.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dyma.dir/build.make CMakeFiles/Dyma.dir/src/auto.cpp.obj
+.PHONY : src/auto.cpp.obj
 
-src/boucle.i: src/boucle.cpp.i
-.PHONY : src/boucle.i
+src/auto.i: src/auto.cpp.i
+.PHONY : src/auto.i
 
 # target to preprocess a source file
-src/boucle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dyma.dir/build.make CMakeFiles/Dyma.dir/src/boucle.cpp.i
-.PHONY : src/boucle.cpp.i
+src/auto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dyma.dir/build.make CMakeFiles/Dyma.dir/src/auto.cpp.i
+.PHONY : src/auto.cpp.i
 
-src/boucle.s: src/boucle.cpp.s
-.PHONY : src/boucle.s
+src/auto.s: src/auto.cpp.s
+.PHONY : src/auto.s
 
 # target to generate assembly for a file
-src/boucle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dyma.dir/build.make CMakeFiles/Dyma.dir/src/boucle.cpp.s
-.PHONY : src/boucle.cpp.s
+src/auto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dyma.dir/build.make CMakeFiles/Dyma.dir/src/auto.cpp.s
+.PHONY : src/auto.cpp.s
 
 # Help Target
 help:
@@ -184,9 +184,9 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... Dyma"
-	@echo "... src/boucle.obj"
-	@echo "... src/boucle.i"
-	@echo "... src/boucle.s"
+	@echo "... src/auto.obj"
+	@echo "... src/auto.i"
+	@echo "... src/auto.s"
 .PHONY : help
 
 
