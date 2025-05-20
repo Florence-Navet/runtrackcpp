@@ -5,7 +5,7 @@ project(Dyma VERSION 0.1.0 LANGUAGES C CXX)
 # include(CTest)
 # enable_testing()
 
-add_executable(Dyma src/boucle.cpp)
+add_executable(Dyma src/elipse.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
