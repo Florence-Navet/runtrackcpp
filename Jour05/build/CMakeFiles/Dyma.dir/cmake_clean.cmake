@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Dyma.dir/src/boucle.cpp.obj"
-  "CMakeFiles/Dyma.dir/src/boucle.cpp.obj.d"
+  "CMakeFiles/Dyma.dir/src/auto.cpp.obj"
+  "CMakeFiles/Dyma.dir/src/auto.cpp.obj.d"
   "Dyma.exe"
   "Dyma.exe.manifest"
   "Dyma.pdb"
