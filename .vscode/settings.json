@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "${workspaceFolder}/jeudymafpc",
-  "cmake.buildDirectory": "${workspaceFolder}/jeudymafpc/build",
+  "cmake.sourceDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu/",
+  "cmake.buildDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
@@ -66,7 +66,6 @@
     "optional": "cpp",
     "queue": "cpp",
     "string": "cpp",
-    "strstream": "cpp",
     "unordered_map": "cpp",
     "vector": "cpp",
     "xhash": "cpp"
