@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5.0)
-project(3.5 VERSION 0.1.0 LANGUAGES C CXX)
+project(Jour04_3_5 VERSION 0.1.0 LANGUAGES C CXX)
 
-add_executable(3.5 
+add_executable(Jour04_3_5 
     src/main.cpp
     src/geometrie.cpp
 )

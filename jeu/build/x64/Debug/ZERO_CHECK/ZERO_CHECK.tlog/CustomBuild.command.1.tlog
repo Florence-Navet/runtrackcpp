@@ -1,0 +1,10 @@
+^E:\CODEGITHUB\CODELAPLATEFORME\2025GITHUBFLOPYTHON\C++\RUNTRACKCPP\JEU\BUILD\CMAKEFILES\59209913CDAFB1A6CD42DE32188FDCF9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu -BE:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu/build/Dyma_jeu.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
