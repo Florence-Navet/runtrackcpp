@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "${workspaceFolder}/Jour05",
-  "cmake.buildDirectory": "${workspaceFolder}/Jour05/build",
+  "cmake.sourceDirectory": "${workspaceFolder}/jeudymafpc",
+  "cmake.buildDirectory": "${workspaceFolder}/jeudymafpc/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
