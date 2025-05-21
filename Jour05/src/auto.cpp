@@ -17,3 +17,11 @@ int main() {
 
     return 0;
 }
+
+
+    // std::srand(static_cast<unsigned int>(std::time(nullptr))); // Initialisation de rand()
+       
+    // for (int i = 0; i < 20; i++) {
+    //     int random_value = std::rand(); // Nouvelle valeur aléatoire à chaque tour
+    //     std::cout << random_value << std::endl;
+    // }

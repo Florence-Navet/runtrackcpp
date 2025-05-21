@@ -7,7 +7,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Windows - 10.0.26100 - AMD64
+      The system is: Windows - 10.0.19045 - AMD64
   -
     kind: "message-v1"
     backtrace:
@@ -17,18 +17,51 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/msys64/usr/bin/gcc.exe 
+      Compiler:  
       Build flags: 
       Id flags:  
       
       The output was:
       0
+      Version MSBuild 17.13.19+0d9f5a35a pour .NET Framework
+      La g├®n├®ration a d├®marr├® 20/05/2025 16:10:51.
+      
+      Projet "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+      PrepareForBuild:
+        Cr├®ation du r├®pertoire "Debug\\".
+        La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+        Cr├®ation du r├®pertoire "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Cr├®ation de "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      G├®n├®ration du projet "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" termin├®e (cibles par d├®faut).
+      
+      La g├®n├®ration a r├®ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ├®coul├® 00:00:00.40
       
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
       
-      The C compiler identification is GNU, found in:
-        C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/4.0.2/CompilerIdC/a.exe
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -39,18 +72,51 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/msys64/usr/bin/g++.exe 
+      Compiler:  
       Build flags: 
       Id flags:  
       
       The output was:
       0
+      Version MSBuild 17.13.19+0d9f5a35a pour .NET Framework
+      La g├®n├®ration a d├®marr├® 20/05/2025 16:10:52.
+      
+      Projet "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+      PrepareForBuild:
+        Cr├®ation du r├®pertoire "Debug\\".
+        La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+        Cr├®ation du r├®pertoire "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Cr├®ation de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Mise ├á jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      G├®n├®ration du projet "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" termin├®e (cibles par d├®faut).
+      
+      La g├®n├®ration a r├®ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ├®coul├® 00:00:00.40
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
       
-      The CXX compiler identification is GNU, found in:
-        C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/4.0.2/CompilerIdCXX/a.exe
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -61,98 +127,52 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-mffe2c"
-      binary: "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-mffe2c"
+      source: "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-zzyd99"
+      binary: "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-zzyd99"
     cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-mffe2c'
+        Change Dir: 'E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-zzyd99'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_e1f1a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e1f1a.dir/build.make CMakeFiles/cmTC_e1f1a.dir/build
-        make[1]: Entering directory '/c/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-mffe2c'
-        Building C object CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj
-        C:/msys64/usr/bin/gcc.exe   -v -o CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCCompilerABI.c"
-        Using built-in specs.
-        COLLECT_GCC=C:/msys64/usr/bin/gcc
-        Target: x86_64-pc-msys
-        Configured with: /c/S/B/src/gcc-13.3.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts
-        Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 13.3.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1f1a.dir/'
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/../../include/w32api C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e1f1a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o /c/Users/enola/AppData/Local/Temp/ccaNEpwH.s
-        GNU C17 (GCC) version 13.3.0 (x86_64-pc-msys)
-        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9111b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.13.19+0d9f5a35a pour .NET Framework
+        La g├®n├®ration a d├®marr├® 20/05/2025 16:10:53.
         
-        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring nonexistent directory "/usr/local/include"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/include"
-        ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/../../include/w32api"
-        #include "..." search starts here:
-        #include <...> search starts here:
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/include
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed
-         /usr/include
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api
-        End of search list.
-        Compiler executable checksum: 7e16f06f69d198505a4aebbcee60032e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1f1a.dir/'
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/as.exe -v -o CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj /c/Users/enola/AppData/Local/Temp/ccaNEpwH.s
-        GNU assembler version 2.44 (x86_64-pc-msys) using BFD version (GNU Binutils) 2.44
-        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_e1f1a.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_e1f1a.dir/objects.a
-        C:/msys64/usr/bin/ar.exe qc CMakeFiles/cmTC_e1f1a.dir/objects.a @CMakeFiles/cmTC_e1f1a.dir/objects1.rsp
-        C:/msys64/usr/bin/gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_e1f1a.dir/objects.a -Wl,--no-whole-archive -o cmTC_e1f1a.exe -Wl,--out-implib,libcmTC_e1f1a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        Using built-in specs.
-        COLLECT_GCC=C:/msys64/usr/bin/gcc
-        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe
-        Target: x86_64-pc-msys
-        Configured with: /c/S/B/src/gcc-13.3.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts
-        Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 13.3.0 (GCC) 
-        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1f1a.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e1f1a.'
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccDL8lVq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_e1f1a.exe /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/13.3.0 -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../.. -v --whole-archive CMakeFiles/cmTC_e1f1a.dir/objects.a --no-whole-archive --out-implib libcmTC_e1f1a.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o
-        collect2 version 13.3.0
-        /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/ld -plugin /usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccDL8lVq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_e1f1a.exe /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/13.3.0 -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../.. -v --whole-archive CMakeFiles/cmTC_e1f1a.dir/objects.a --no-whole-archive --out-implib libcmTC_e1f1a.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o
-        GNU ld (GNU Binutils) 2.44
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1f1a.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e1f1a.'
-        make[1]: Leaving directory '/c/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-mffe2c'
+        Projet "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzyd99\\cmTC_9111b.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_9111b.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzyd99\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_9111b.dir\\Debug\\cmTC_9111b.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_9111b.dir\\Debug\\cmTC_9111b.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_9111b.dir\\Debug\\cmTC_9111b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9111b.dir\\Debug\\\\" /Fd"cmTC_9111b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.43.34809 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9111b.dir\\Debug\\\\" /Fd"cmTC_9111b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzyd99\\Debug\\cmTC_9111b.exe" /INCREMENTAL /ILK:"cmTC_9111b.dir\\Debug\\cmTC_9111b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-zzyd99/Debug/cmTC_9111b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-zzyd99/Debug/cmTC_9111b.lib" /MACHINE:X64  /machine:x64 cmTC_9111b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9111b.vcxproj -> E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzyd99\\Debug\\cmTC_9111b.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_9111b.dir\\Debug\\cmTC_9111b.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_9111b.dir\\Debug\\cmTC_9111b.tlog\\cmTC_9111b.lastbuildstate".
+        G├®n├®ration du projet "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zzyd99\\cmTC_9111b.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.38
         
       exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed C implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include]
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed]
-          add: [/usr/include]
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api]
-        end of search list found
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api] ==> [/usr/include/w32api]
-        implicit include dirs: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include;/usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed;/usr/include;/usr/include/w32api]
-      
-      
   -
     kind: "message-v1"
     backtrace:
@@ -161,137 +181,12 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-mffe2c']
-        ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_e1f1a/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e1f1a.dir/build.make CMakeFiles/cmTC_e1f1a.dir/build]
-        ignore line: [make[1]: Entering directory '/c/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-mffe2c']
-        ignore line: [Building C object CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:/msys64/usr/bin/gcc.exe   -v -o CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCCompilerABI.c"]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:/msys64/usr/bin/gcc]
-        ignore line: [Target: x86_64-pc-msys]
-        ignore line: [Configured with: /c/S/B/src/gcc-13.3.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 13.3.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1f1a.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/../../include/w32api C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e1f1a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o /c/Users/enola/AppData/Local/Temp/ccaNEpwH.s]
-        ignore line: [GNU C17 (GCC) version 13.3.0 (x86_64-pc-msys)]
-        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
-        ignore line: []
-        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring nonexistent directory "/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/include"]
-        ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/../../include/w32api"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/include]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed]
-        ignore line: [ /usr/include]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api]
-        ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 7e16f06f69d198505a4aebbcee60032e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1f1a.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/as.exe -v -o CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj /c/Users/enola/AppData/Local/Temp/ccaNEpwH.s]
-        ignore line: [GNU assembler version 2.44 (x86_64-pc-msys) using BFD version (GNU Binutils) 2.44]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_e1f1a.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_e1f1a.exe]
-        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_e1f1a.dir/objects.a]
-        ignore line: [C:/msys64/usr/bin/ar.exe qc CMakeFiles/cmTC_e1f1a.dir/objects.a @CMakeFiles/cmTC_e1f1a.dir/objects1.rsp]
-        ignore line: [C:/msys64/usr/bin/gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_e1f1a.dir/objects.a -Wl --no-whole-archive -o cmTC_e1f1a.exe -Wl --out-implib libcmTC_e1f1a.dll.a -Wl --major-image-version 0 --minor-image-version 0]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:/msys64/usr/bin/gcc]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe]
-        ignore line: [Target: x86_64-pc-msys]
-        ignore line: [Configured with: /c/S/B/src/gcc-13.3.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 13.3.0 (GCC) ]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1f1a.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e1f1a.']
-        link line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccDL8lVq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_e1f1a.exe /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/13.3.0 -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../.. -v --whole-archive CMakeFiles/cmTC_e1f1a.dir/objects.a --no-whole-archive --out-implib libcmTC_e1f1a.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o]
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/collect2.exe] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll] ==> ignore
-          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccDL8lVq.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
-          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [-m] ==> ignore
-          arg [i386pep] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_Znwm] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_Znam] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZdlPv] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZdaPv] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZnwmRKSt9nothrow_t] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZnamRKSt9nothrow_t] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZdlPvRKSt9nothrow_t] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZdaPvRKSt9nothrow_t] ==> ignore
-          arg [-Bdynamic] ==> search dynamic
-          arg [--dll-search-prefix=msys-] ==> ignore
-          arg [--tsaware] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_e1f1a.exe] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o] ==> obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o]
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o]
-          arg [-L/usr/lib/gcc/x86_64-pc-msys/13.3.0] ==> dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0]
-          arg [-L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib]
-          arg [-L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../..]
-          arg [-v] ==> ignore
-          arg [--whole-archive] ==> ignore
-          arg [CMakeFiles/cmTC_e1f1a.dir/objects.a] ==> ignore
-          arg [--no-whole-archive] ==> ignore
-          arg [--out-implib] ==> ignore
-          arg [libcmTC_e1f1a.dll.a] ==> ignore
-          arg [--major-image-version] ==> ignore
-          arg [0] ==> ignore
-          arg [--minor-image-version] ==> ignore
-          arg [0] ==> ignore
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lmsys-2.0] ==> lib [msys-2.0]
-          arg [-ladvapi32] ==> lib [advapi32]
-          arg [-lshell32] ==> lib [shell32]
-          arg [-luser32] ==> lib [user32]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o] ==> obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o]
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o]
-        ignore line: [collect2 version 13.3.0]
-        ignore line: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/ld -plugin /usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccDL8lVq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_e1f1a.exe /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/13.3.0 -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../.. -v --whole-archive CMakeFiles/cmTC_e1f1a.dir/objects.a --no-whole-archive --out-implib libcmTC_e1f1a.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o]
-        linker tool for 'C': /usr/x86_64-pc-msys/bin/ld
-        collapse obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o] ==> [/usr/lib/crt0.o]
-        collapse obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o] ==> [/usr/lib/default-manifest.o]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib] ==> [/usr/x86_64-pc-msys/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../..] ==> [/usr/lib]
-        implicit libs: [gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
-        implicit objs: [/usr/lib/crt0.o;/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o;/usr/lib/default-manifest.o;/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-pc-msys/13.3.0;/usr/x86_64-pc-msys/lib;/usr/lib]
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
         implicit fwks: []
       
       
@@ -303,28 +198,9 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the C compiler's linker: "/usr/x86_64-pc-msys/bin/ld" "-v"
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the C compiler's linker: "/usr/x86_64-pc-msys/bin/ld" "-V"
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the C compiler's linker: "/usr/x86_64-pc-msys/bin/ld" "--version"
-      
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
     backtrace:
@@ -334,108 +210,53 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-n5k509"
-      binary: "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-n5k509"
+      source: "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-ddq9ej"
+      binary: "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-ddq9ej"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-n5k509'
+        Change Dir: 'E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-ddq9ej'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_2806a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_2806a.dir/build.make CMakeFiles/cmTC_2806a.dir/build
-        make[1]: Entering directory '/c/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-n5k509'
-        Building CXX object CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj
-        C:/msys64/usr/bin/g++.exe   -v -o CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp"
-        Using built-in specs.
-        COLLECT_GCC=C:/msys64/usr/bin/g++
-        Target: x86_64-pc-msys
-        Configured with: /c/S/B/src/gcc-13.3.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts
-        Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 13.3.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2806a.dir/'
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/../../include/w32api C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2806a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o /c/Users/enola/AppData/Local/Temp/ccvvxTjH.s
-        GNU C++17 (GCC) version 13.3.0 (x86_64-pc-msys)
-        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_76624.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.13.19+0d9f5a35a pour .NET Framework
+        La g├®n├®ration a d├®marr├® 20/05/2025 16:10:53.
         
-        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring nonexistent directory "/usr/local/include"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/include"
-        ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/../../include/w32api"
-        #include "..." search starts here:
-        #include <...> search starts here:
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/x86_64-pc-msys
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/backward
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/include
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed
-         /usr/include
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api
-        End of search list.
-        Compiler executable checksum: 93cf7bf6317c250774ae586f79c82ae8
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2806a.dir/'
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/as.exe -v -o CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj /c/Users/enola/AppData/Local/Temp/ccvvxTjH.s
-        GNU assembler version 2.44 (x86_64-pc-msys) using BFD version (GNU Binutils) 2.44
-        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2806a.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_2806a.dir/objects.a
-        C:/msys64/usr/bin/ar.exe qc CMakeFiles/cmTC_2806a.dir/objects.a @CMakeFiles/cmTC_2806a.dir/objects1.rsp
-        C:/msys64/usr/bin/g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_2806a.dir/objects.a -Wl,--no-whole-archive -o cmTC_2806a.exe -Wl,--out-implib,libcmTC_2806a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        Using built-in specs.
-        COLLECT_GCC=C:/msys64/usr/bin/g++
-        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe
-        Target: x86_64-pc-msys
-        Configured with: /c/S/B/src/gcc-13.3.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts
-        Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 13.3.0 (GCC) 
-        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2806a.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2806a.'
-         /usr/lib/gcc/x86_64-pc-msys/13.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccq5YW3z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_2806a.exe /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/13.3.0 -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../.. -v --whole-archive CMakeFiles/cmTC_2806a.dir/objects.a --no-whole-archive --out-implib libcmTC_2806a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o
-        collect2 version 13.3.0
-        /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/ld -plugin /usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccq5YW3z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_2806a.exe /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/13.3.0 -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../.. -v --whole-archive CMakeFiles/cmTC_2806a.dir/objects.a --no-whole-archive --out-implib libcmTC_2806a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o
-        GNU ld (GNU Binutils) 2.44
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2806a.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2806a.'
-        make[1]: Leaving directory '/c/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-n5k509'
+        Projet "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddq9ej\\cmTC_76624.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        PrepareForBuild:
+          Cr├®ation du r├®pertoire "cmTC_76624.dir\\Debug\\".
+          La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
+          Cr├®ation du r├®pertoire "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddq9ej\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_76624.dir\\Debug\\cmTC_76624.tlog\\".
+        InitializeBuildStatus:
+          Cr├®ation de "cmTC_76624.dir\\Debug\\cmTC_76624.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_76624.dir\\Debug\\cmTC_76624.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_76624.dir\\Debug\\\\" /Fd"cmTC_76624.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.43.34809 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_76624.dir\\Debug\\\\" /Fd"cmTC_76624.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddq9ej\\Debug\\cmTC_76624.exe" /INCREMENTAL /ILK:"cmTC_76624.dir\\Debug\\cmTC_76624.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-ddq9ej/Debug/cmTC_76624.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-ddq9ej/Debug/cmTC_76624.lib" /MACHINE:X64  /machine:x64 cmTC_76624.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_76624.vcxproj -> E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddq9ej\\Debug\\cmTC_76624.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_76624.dir\\Debug\\cmTC_76624.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_76624.dir\\Debug\\cmTC_76624.tlog\\cmTC_76624.lastbuildstate".
+        G├®n├®ration du projet "E:\\CODEGITHUB\\Codelaplateforme\\2025githubflopython\\c++\\runtrackcpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddq9ej\\cmTC_76624.vcxproj" termin├®e (cibles par d├®faut).
+        
+        La g├®n├®ration a r├®ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ├®coul├® 00:00:00.38
         
       exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed CXX implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++]
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/x86_64-pc-msys]
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/backward]
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include]
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed]
-          add: [/usr/include]
-          add: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api]
-        end of search list found
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/x86_64-pc-msys] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/x86_64-pc-msys]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/backward] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/backward]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api] ==> [/usr/include/w32api]
-        implicit include dirs: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++;/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/x86_64-pc-msys;/usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/backward;/usr/lib/gcc/x86_64-pc-msys/13.3.0/include;/usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed;/usr/include;/usr/include/w32api]
-      
-      
   -
     kind: "message-v1"
     backtrace:
@@ -444,141 +265,12 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-n5k509']
-        ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_2806a/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_2806a.dir/build.make CMakeFiles/cmTC_2806a.dir/build]
-        ignore line: [make[1]: Entering directory '/c/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/build/CMakeFiles/CMakeScratch/TryCompile-n5k509']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:/msys64/usr/bin/g++.exe   -v -o CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp"]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:/msys64/usr/bin/g++]
-        ignore line: [Target: x86_64-pc-msys]
-        ignore line: [Configured with: /c/S/B/src/gcc-13.3.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 13.3.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2806a.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/../../include/w32api C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2806a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o /c/Users/enola/AppData/Local/Temp/ccvvxTjH.s]
-        ignore line: [GNU C++17 (GCC) version 13.3.0 (x86_64-pc-msys)]
-        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
-        ignore line: []
-        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring nonexistent directory "/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/include"]
-        ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/../../include/w32api"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/x86_64-pc-msys]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/include/c++/backward]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/include]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/include-fixed]
-        ignore line: [ /usr/include]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../include/w32api]
-        ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 93cf7bf6317c250774ae586f79c82ae8]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2806a.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/as.exe -v -o CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj /c/Users/enola/AppData/Local/Temp/ccvvxTjH.s]
-        ignore line: [GNU assembler version 2.44 (x86_64-pc-msys) using BFD version (GNU Binutils) 2.44]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_2806a.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2806a.exe]
-        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_2806a.dir/objects.a]
-        ignore line: [C:/msys64/usr/bin/ar.exe qc CMakeFiles/cmTC_2806a.dir/objects.a @CMakeFiles/cmTC_2806a.dir/objects1.rsp]
-        ignore line: [C:/msys64/usr/bin/g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_2806a.dir/objects.a -Wl --no-whole-archive -o cmTC_2806a.exe -Wl --out-implib libcmTC_2806a.dll.a -Wl --major-image-version 0 --minor-image-version 0]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:/msys64/usr/bin/g++]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe]
-        ignore line: [Target: x86_64-pc-msys]
-        ignore line: [Configured with: /c/S/B/src/gcc-13.3.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-static --enable-shared --enable-shared-libgcc --enable-version-specific-runtime-libs --with-arch=nocona --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --enable-libstdcxx-filesystem-ts]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 13.3.0 (GCC) ]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/13.3.0/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2806a.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2806a.']
-        link line: [ /usr/lib/gcc/x86_64-pc-msys/13.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccq5YW3z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_2806a.exe /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/13.3.0 -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../.. -v --whole-archive CMakeFiles/cmTC_2806a.dir/objects.a --no-whole-archive --out-implib libcmTC_2806a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o]
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/collect2.exe] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll] ==> ignore
-          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccq5YW3z.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
-          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [-m] ==> ignore
-          arg [i386pep] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_Znwm] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_Znam] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZdlPv] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZdaPv] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZnwmRKSt9nothrow_t] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZnamRKSt9nothrow_t] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZdlPvRKSt9nothrow_t] ==> ignore
-          arg [--wrap] ==> ignore
-          arg [_ZdaPvRKSt9nothrow_t] ==> ignore
-          arg [-Bdynamic] ==> search dynamic
-          arg [--dll-search-prefix=msys-] ==> ignore
-          arg [--tsaware] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_2806a.exe] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o] ==> obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o]
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o]
-          arg [-L/usr/lib/gcc/x86_64-pc-msys/13.3.0] ==> dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0]
-          arg [-L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib]
-          arg [-L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../..]
-          arg [-v] ==> ignore
-          arg [--whole-archive] ==> ignore
-          arg [CMakeFiles/cmTC_2806a.dir/objects.a] ==> ignore
-          arg [--no-whole-archive] ==> ignore
-          arg [--out-implib] ==> ignore
-          arg [libcmTC_2806a.dll.a] ==> ignore
-          arg [--major-image-version] ==> ignore
-          arg [0] ==> ignore
-          arg [--minor-image-version] ==> ignore
-          arg [0] ==> ignore
-          arg [-lstdc++] ==> lib [stdc++]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lmsys-2.0] ==> lib [msys-2.0]
-          arg [-ladvapi32] ==> lib [advapi32]
-          arg [-lshell32] ==> lib [shell32]
-          arg [-luser32] ==> lib [user32]
-          arg [-lkernel32] ==> lib [kernel32]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o] ==> obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o]
-          arg [/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o]
-        ignore line: [collect2 version 13.3.0]
-        ignore line: [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/bin/ld -plugin /usr/lib/gcc/x86_64-pc-msys/13.3.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/c/Users/enola/AppData/Local/Temp/ccq5YW3z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_2806a.exe /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/13.3.0 -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../.. -v --whole-archive CMakeFiles/cmTC_2806a.dir/objects.a --no-whole-archive --out-implib libcmTC_2806a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o /usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o]
-        linker tool for 'CXX': /usr/x86_64-pc-msys/bin/ld
-        collapse obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../crt0.o] ==> [/usr/lib/crt0.o]
-        collapse obj [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../default-manifest.o] ==> [/usr/lib/default-manifest.o]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0] ==> [/usr/lib/gcc/x86_64-pc-msys/13.3.0]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../../../x86_64-pc-msys/lib] ==> [/usr/x86_64-pc-msys/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-msys/13.3.0/../../..] ==> [/usr/lib]
-        implicit libs: [stdc++;gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
-        implicit objs: [/usr/lib/crt0.o;/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtbegin.o;/usr/lib/default-manifest.o;/usr/lib/gcc/x86_64-pc-msys/13.3.0/crtend.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-pc-msys/13.3.0;/usr/x86_64-pc-msys/lib;/usr/lib]
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
         implicit fwks: []
       
       
@@ -590,26 +282,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the CXX compiler's linker: "/usr/x86_64-pc-msys/bin/ld" "-v"
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the CXX compiler's linker: "/usr/x86_64-pc-msys/bin/ld" "-V"
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the CXX compiler's linker: "/usr/x86_64-pc-msys/bin/ld" "--version"
-      
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
