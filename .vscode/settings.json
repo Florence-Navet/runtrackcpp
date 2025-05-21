@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu/",
-  "cmake.buildDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu/build",
+  "cmake.sourceDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Dyma/",
+  "cmake.buildDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Dyma/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
@@ -68,6 +68,7 @@
     "string": "cpp",
     "unordered_map": "cpp",
     "vector": "cpp",
-    "xhash": "cpp"
+    "xhash": "cpp",
+    "array": "cpp"
   }
 }
