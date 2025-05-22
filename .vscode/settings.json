@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Dyma/",
-  "cmake.buildDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Dyma/build",
+  "cmake.sourceDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/jour04",
+  "cmake.buildDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/c++/runtrackcpp/jour04/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
