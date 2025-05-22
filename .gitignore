@@ -43,5 +43,7 @@ node_modules/
 build/
 *.log
 
+settings.json
+.vscode/settings.json*
 
 
