@@ -5,7 +5,7 @@ project(Dyma VERSION 0.1.0 LANGUAGES C CXX)
 # include(CTest)
 # enable_testing()
 
-add_executable(Dyma src/array3d.cpp)
+add_executable(Dyma src/newdelete.cpp)
 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
