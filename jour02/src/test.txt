@@ -1,0 +1,1 @@
+static_cast<[type de destination]>([variable à convertir])

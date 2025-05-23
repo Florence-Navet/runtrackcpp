@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Dyma/",
-  "cmake.buildDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Dyma/build",
+  "cmake.sourceDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/Regex/",
+  "cmake.buildDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/Regex/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
@@ -56,6 +56,9 @@
     "xmemory": "cpp",
     "xstring": "cpp",
     "xtr1common": "cpp",
+<<<<<<< HEAD
+    "xutility": "cpp"
+=======
     "xutility": "cpp",
     "algorithm": "cpp",
     "bitset": "cpp",
@@ -70,5 +73,6 @@
     "vector": "cpp",
     "xhash": "cpp",
     "array": "cpp"
+>>>>>>> b16339ab43859c52c6094875663287ee4b90d962
   }
 }
