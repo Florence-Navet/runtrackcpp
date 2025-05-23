@@ -1,0 +1,10 @@
+^E:\CODEGITHUB\CODELAPLATEFORME\2025GITHUBFLOPYTHON\C++\RUNTRACKCPP\JEU\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu -BE:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu/build --check-stamp-file E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jeu/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -138,34 +138,36 @@ cmake --version
 
 ---
 
+| **Description**        | **Séquence d'échappement** |
+| ---------------------- | -------------------------- |
+| Saut de ligne          | `\n`                       |
+| Tabulation horizontale | `\t`                       |
+| Tabulation verticale   | `\v`                       |
+| Quote unique           | `\'`                       |
+| Retour arrière         | `\b`                       |
+| Guillemet double       | `\"`                       |
+| Retour chariot         | `\r`                       |
+| Caractère Null         | `\0`                       |
+| Saut de page           | `\f`                       |
 
-
-| **Description**            | **Séquence d'échappement** |   
-|----------------------------|----------------------------|   
-| Saut de ligne              | `\n`                       |  
-| Tabulation horizontale     | `\t`                       |  
-| Tabulation verticale       | `\v`                       |  
-| Quote unique               | `\'`                       |  
-| Retour arrière             | `\b`                       |
-| Guillemet double           | `\"`                       |  
-| Retour chariot             | `\r`                       |  
-| Caractère Null             | `\0`                       |    
-| Saut de page               | `\f`                       |  
-
-  
-     
 nano ~/.bashrc  
 export PATH="/c/Program Files/Git/cmd:$PATH"  
-source ~/.bashrc  
-  
----  
-  
-## Pour avoir des commentaires styles  
-  
+source ~/.bashrc
+
+---
+
+## Pour avoir des commentaires styles
+
 extension 'Doxygen Documentation generator'  
 puis faire  
-/** et touche entrée  
-  
----  
+/\*\* et touche entrée
 
+---
 
+RAJOUTE POUR LE UTF8
+
+```bash
+std::setlocale(LC_ALL, ".utf8");
+```
+
+---

@@ -1,5 +1,4 @@
 E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build/CMakeFiles/HelloWorld.dir
-E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build/CMakeFiles/package.dir
-E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build/CMakeFiles/package_source.dir
-E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build/CMakeFiles/edit_cache.dir
-E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build/CMakeFiles/rebuild_cache.dir
+E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build/CMakeFiles/PACKAGE.dir
+E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build/CMakeFiles/ALL_BUILD.dir
+E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/jour01/build/CMakeFiles/ZERO_CHECK.dir

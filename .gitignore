@@ -38,5 +38,14 @@ node_modules/
 .DS_Store
 
 #ignore les json
+.vscode/settings.json
+.vscode/
+build/
+*.log
+
+settings.json
+.vscode/settings.json
+
+
 
 

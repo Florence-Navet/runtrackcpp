@@ -1,10 +1,12 @@
-cmake_minimum_required(VERSION 3.5.0)
-project(3.5 VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.10.0)
 
-add_executable(3.5 
-    src/main.cpp
-    src/geometrie.cpp
-)
+project(Dyma VERSION 0.1.0 LANGUAGES C CXX)
+
+# include(CTest)
+# enable_testing()
+
+add_executable(Dyma src/pointeur2.cpp)
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
