@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/Regex/",
-  "cmake.buildDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/Regex/build",
+  "cmake.sourceDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/TODOLIST/",
+  "cmake.buildDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/TODOLIST/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
