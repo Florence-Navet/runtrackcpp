@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/TODO/",
-  "cmake.buildDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/TODO/build",
+  "cmake.sourceDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/TODO/",
+  "cmake.buildDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/TODO/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
@@ -74,6 +74,11 @@
     "fstream": "cpp",
     "numbers": "cpp",
     "bitset": "cpp",
-    "sstream": "cpp"
+    "sstream": "cpp",
+    "iomanip": "cpp",
+    "list": "cpp",
+    "queue": "cpp",
+    "regex": "cpp",
+    "xhash": "cpp"
   }
 }
