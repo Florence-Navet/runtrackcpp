@@ -5,15 +5,18 @@
 using std::cout;
 using std::endl;
 
+
 int main()
 {
+    
     std::vector<Tache> taches;
-    chargerTacheDepuisCSV(taches);
+    chargerTachesDepuisCSV(taches);
 
     int choix;
 
     do
     {
+        std::setlocale(LC_ALL, ".utf8");
         afficherMenu();
         std::cout << "Quel est votre choix : ";
         std::cin >> choix;
@@ -27,10 +30,10 @@ int main()
             supprimerTache(taches);
             break;
         case 3:
-            afficheTaches(taches);
+            afficherTaches(taches);
             break;
         case 4:
-            marqueTacheTermine(taches);
+            marquerTacheTerminee(taches);
             break;
         case 5:
             editerTache(taches);

@@ -24,7 +24,7 @@ void afficherMenu()
 
 void afficherTache(const Tache &tache)
 {
-    cout << tache.name << " (" << (tache.completed ? "Terminée" : "En cours") << ") - Pour le : " << tache.dueDate << endl;
+    cout << tache.nom << " (" << (tache.termine ? "Terminée" : "En cours") << ") - Pour le : " << tache.date << endl;
     cout << "   Description : " << tache.description << endl;
 }
 
@@ -33,11 +33,11 @@ void ajouterTache(vector<Tache> &taches)
     Tache tache;
     cout << "Nom de la tâche : ";
     cin.ignore();
-    getline(cin, tache.name);
+    getline(cin, tache.nom);
     cout << "Description : ";
     getline(cin, tache.description);
-    cout << "Date d'échéance (YYYY-MM-DD) : ";
-    getline(cin, tache.dueDate);
+    cout << "Date d'échéance (JJ-MM-AAAA) : ";
+    getline(cin, tache.date);
 
     taches.push_back(tache);
     cout << "Tâche ajoutée !" << endl;
@@ -53,7 +53,7 @@ void supprimerTache(vector<Tache> &taches)
 
     for (size_t i = 0; i < taches.size(); ++i)
     {
-        cout << i + 1 << ". " << taches[i].name << endl;
+        cout << i + 1 << ". " << taches[i].nom << endl;
     }
 
     int index;
@@ -96,7 +96,7 @@ void marquerTacheTerminee(vector<Tache> &taches)
 
     for (size_t i = 0; i < taches.size(); ++i)
     {
-        cout << i + 1 << ". " << taches[i].name << endl;
+        cout << i + 1 << ". " << taches[i].nom << endl;
     }
 
     int index;
@@ -105,7 +105,7 @@ void marquerTacheTerminee(vector<Tache> &taches)
 
     if (index >= 1 && index <= taches.size())
     {
-        taches[index - 1].completed = true;
+        taches[index - 1].termine = true;
         cout << "Tâche marquée comme terminée !" << endl;
     }
     else
@@ -124,7 +124,7 @@ void editerTache(vector<Tache> &taches)
 
     for (size_t i = 0; i < taches.size(); ++i)
     {
-        cout << i + 1 << ". " << taches[i].name << endl;
+        cout << i + 1 << ". " << taches[i].nom << endl;
     }
 
     int index;
@@ -136,12 +136,12 @@ void editerTache(vector<Tache> &taches)
         Tache &tache = taches[index - 1];
         cin.ignore();
 
-        cout << "Nouveau nom (actuel : " << tache.name << ") : ";
-        getline(cin, tache.name);
+        cout << "Nouveau nom (actuel : " << tache.nom << ") : ";
+        getline(cin, tache.nom);
         cout << "Nouvelle description (actuelle : " << tache.description << ") : ";
         getline(cin, tache.description);
-        cout << "Nouvelle date (actuelle : " << tache.dueDate << ") : ";
-        getline(cin, tache.dueDate);
+        cout << "Nouvelle date (actuelle : " << tache.date << ") : ";
+        getline(cin, tache.date);
 
         cout << "Tâche mise à jour." << endl;
     }
@@ -151,23 +151,34 @@ void editerTache(vector<Tache> &taches)
     }
 }
 
-void sauvegarderTachesCSV(const vector<Tache> &taches, const string &nomfichier)
+void sauvegarderTachesCSV(const std::vector<Tache> &taches, const std::string &nomfichier)
 {
+    // Ouvre le fichier en mode écriture
     std::ofstream file(nomfichier);
     if (!file)
     {
-        cout << "Erreur lors de l'ouverture du fichier." << endl;
+        std::cerr << "Erreur lors de l'ouverture du fichier : " << nomfichier << std::endl;
         return;
     }
 
+    // Écriture de l'en-tête du fichier CSV
     file << "Nom,Description,Date,Statut\n";
+
+    // Écriture des tâches dans le fichier CSV
     for (const Tache &tache : taches)
     {
-        file << '"' << tache.name << "", "" << tache.description << "", "" << tache.dueDate << "", "" << (tache.completed ? "1" : "0") << "\n";
+        file << "\"" << tache.nom << "\","
+             << "\"" << tache.description << "\","
+             << "\"" << tache.date << "\","
+             << "\"" << (tache.termine ? "1" : "0") << "\"\n";
     }
 
+    // Fermeture du fichier
     file.close();
+
+    std::cout << "Tâches sauvegardées dans " << nomfichier << " avec succès." << std::endl;
 }
+
 
 void chargerTachesDepuisCSV(vector<Tache> &taches, const string &nomfichier)
 {
@@ -181,22 +192,22 @@ void chargerTachesDepuisCSV(vector<Tache> &taches, const string &nomfichier)
     while (getline(file, line))
     {
         std::stringstream ss(line);
-        string name, description, dueDate, statusStr;
+        string nom, description, date, statusStr;
 
-        getline(ss, name, ',');
+        getline(ss, nom, ',');
         getline(ss, description, ',');
-        getline(ss, dueDate, ',');
+        getline(ss, date, ',');
         getline(ss, statusStr, ',');
 
-        if (name.front() == '"')
-            name = name.substr(1, name.size() - 2);
+        if (nom.front() == '"')
+            nom = nom.substr(1, nom.size() - 2);
         if (description.front() == '"')
             description = description.substr(1, description.size() - 2);
-        if (dueDate.front() == '"')
-            dueDate = dueDate.substr(1, dueDate.size() - 2);
+        if (date.front() == '"')
+            date = date.substr(1, date.size() - 2);
 
-        Tache tache{name, description, dueDate};
-        tache.completed = (statusStr == "1");
+        Tache tache{nom, description, date};
+        tache.termine= (statusStr == "1");
         taches.push_back(tache);
     }
 

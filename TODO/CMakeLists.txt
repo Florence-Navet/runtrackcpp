@@ -11,8 +11,9 @@ include_directories(src)
 
 # Exécutable
 add_executable(TODO
+
+    src/task_manager.cpp
     src/main.cpp
-    # src/task_manager.cpp
 )
 
 # Optionnel : packaging
