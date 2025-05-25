@@ -2,6 +2,14 @@
 #include "todo_list.hpp"
 #include "csv_handler.hpp"
 
+/*
+TODO :
+- faire les try catch
+- faire les heures des taches
+- marquer quand taches est terminés
+- faire un ihm pour la todo
+*/
+
 int main()
 {
     TodoList todoList;

@@ -5,8 +5,9 @@ project(TODO VERSION 0.1.0 LANGUAGES C CXX)
 # include(CTest)
 # enable_testing()
 
-add_executable(TODO src/todo_list.cpp
-src/csv_handler.cpp src/main.cpp)
+# add_executable(TODO src/todo_list.cpp
+# src/csv_handler.cpp src/main.cpp)
+add_executable(TODO src/toto.cpp)
 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

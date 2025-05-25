@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/TODOLIST/",
-  "cmake.buildDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/TODOLIST/build",
+  "cmake.sourceDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/TODO/",
+  "cmake.buildDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/TODO/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
@@ -56,23 +56,24 @@
     "xmemory": "cpp",
     "xstring": "cpp",
     "xtr1common": "cpp",
-<<<<<<< HEAD
-    "xutility": "cpp"
-=======
     "xutility": "cpp",
-    "algorithm": "cpp",
-    "bitset": "cpp",
+    "array": "cpp",
     "cstdarg": "cpp",
+    "cwctype": "cpp",
     "deque": "cpp",
-    "iomanip": "cpp",
-    "list": "cpp",
-    "optional": "cpp",
-    "queue": "cpp",
     "string": "cpp",
     "unordered_map": "cpp",
     "vector": "cpp",
-    "xhash": "cpp",
-    "array": "cpp"
->>>>>>> b16339ab43859c52c6094875663287ee4b90d962
+    "algorithm": "cpp",
+    "functional": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "optional": "cpp",
+    "random": "cpp",
+    "string_view": "cpp",
+    "fstream": "cpp",
+    "numbers": "cpp",
+    "bitset": "cpp",
+    "sstream": "cpp"
   }
 }
