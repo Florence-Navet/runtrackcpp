@@ -1,6 +1,8 @@
 #include "task_manager.h"
 #include <vector>
 #include <iostream>
+#include <filesystem>
+
 
 using std::cout;
 using std::endl;
@@ -10,6 +12,10 @@ int main()
 {
     
     std::vector<Tache> taches;
+
+    std::string cheminCSV = std::filesystem::current_path().parent_path().parent_path().string() + "/src/taches.csv";
+
+    
     chargerTachesDepuisCSV(taches);
 
     int choix;

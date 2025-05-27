@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 3.5.0)
 project(3.5 VERSION 0.1.0 LANGUAGES C CXX)
 
 add_executable(3.5 
-
-    src/stringview.cpp
+    src/regex.cpp
 )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
