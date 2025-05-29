@@ -3,6 +3,7 @@ project(Dyma VERSION 0.1.0 LANGUAGES C CXX)
 
 add_executable(Dyma
     src/main.cpp
+    src/voiture.cpp
     
 )
 

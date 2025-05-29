@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/TODO",
-  "cmake.buildDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/TODO/build",
+  "cmake.sourceDirectory": "C:/Users/enola/Desktop/LAPLATEFORMEEXERCICE/LAPLATEFORME2025/c++/runtrackcpp/Dyma2",
+  "cmake.buildDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/Dyma2/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
@@ -69,6 +69,17 @@
     "unordered_map": "cpp",
     "vector": "cpp",
     "xhash": "cpp",
-    "array": "cpp"
+    "array": "cpp",
+    "codecvt": "cpp",
+    "cwctype": "cpp",
+    "functional": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "random": "cpp",
+    "ratio": "cpp",
+    "string_view": "cpp",
+    "fstream": "cpp",
+    "numbers": "cpp",
+    "sstream": "cpp"
   }
 }

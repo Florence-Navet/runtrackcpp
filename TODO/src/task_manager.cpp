@@ -81,9 +81,10 @@ void afficherTaches(const vector<Tache> &taches)
 
     for (size_t i = 0; i < taches.size(); ++i)
     {
+        cout << "#########################################\n";
         cout << i + 1 << ". ";
         afficherTache(taches[i]);
-    }
+        }
 }
 
 void marquerTacheTerminee(vector<Tache> &taches)
@@ -179,7 +180,6 @@ void sauvegarderTachesCSV(const std::vector<Tache> &taches, const std::string &n
     std::cout << "Tâches sauvegardées dans " << nomfichier << " avec succès." << std::endl;
 }
 
-
 void chargerTachesDepuisCSV(vector<Tache> &taches, const string &nomfichier)
 {
     std::ifstream file(nomfichier);
@@ -207,7 +207,7 @@ void chargerTachesDepuisCSV(vector<Tache> &taches, const string &nomfichier)
             date = date.substr(1, date.size() - 2);
 
         Tache tache{nom, description, date};
-        tache.termine= (statusStr == "1");
+        tache.termine = (statusStr == "1");
         taches.push_back(tache);
     }
 
