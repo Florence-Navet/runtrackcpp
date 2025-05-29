@@ -80,6 +80,7 @@
     "string_view": "cpp",
     "fstream": "cpp",
     "numbers": "cpp",
-    "sstream": "cpp"
+    "sstream": "cpp",
+    "regex": "cpp"
   }
 }

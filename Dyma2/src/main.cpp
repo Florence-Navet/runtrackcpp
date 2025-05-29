@@ -6,9 +6,14 @@ using std::endl;
 
 int main()
 {
-    Voiture renault_zoe("Renault", 6);
-    Voiture renault_kevin("Corvette", 3);
-    Voiture *Porsche_rouge = new Voiture("Porsche", 5);
+    // Voiture renault_zoe("Renault", 6);
+    // Voiture renault_kevin("Corvette", 3);
+    // Voiture *Porsche_rouge = new Voiture("Porsche", 5);
+
+    Voiture renault_adeline{5, 75};
+    renault_adeline.printVoiture();
+    Voiture voiture2{renault_adeline};
+    voiture2.printVoiture();
 
     // renault_zoe.accelerate(10.5);
 
@@ -22,7 +27,7 @@ int main()
     // fiat_punto->marque = "Fiat ";
     // fiat_punto->fillUp();
 
-    delete Porsche_rouge;
+    // delete Porsche_rouge;
 
     return 0;
 }

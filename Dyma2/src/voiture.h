@@ -10,10 +10,15 @@ public:
     /// @param marque
     /// @param nbRoues
     Voiture(std::string marque, int nbRoues);
+    Voiture(int nb_roues, short fuel_level);
+    Voiture(const Voiture &Voiture);
+    Voiture(int nb_roues, short fuel_level, float speed);
+
     ~Voiture() noexcept;
 
     float accelerate(float delta);
     void fillUp();
+    void printVoiture();
 
     // accesseurs et mutateurs
     const int &nb_roues() const;
