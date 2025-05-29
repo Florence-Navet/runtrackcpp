@@ -7,8 +7,17 @@ Voiture::Voiture(std::string marque, int nbRoues) : m_marque{marque},
 {
     std::cout << "Ceci est le constructeur\n";
     std::cout << "Cette voiture est de marque : "
-              << m_marque << "et possède"
-              << nbRoues;
+              << m_marque << " et possède "
+              << nbRoues << " roues\n";
+    m_mon_pointeur = new int;
+}
+
+Voiture::~Voiture()
+{
+    delete m_mon_pointeur;
+    std::cout << "Ceci est le destructeur de la voiture : "
+              << m_marque << "\n";
+    // base_de_donnees.disconnect();
 }
 
 float Voiture::accelerate(float delta)

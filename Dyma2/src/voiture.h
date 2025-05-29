@@ -6,7 +6,11 @@ class Voiture
 {
 
 public:
+    /// @brief Constructeurs
+    /// @param marque
+    /// @param nbRoues
     Voiture(std::string marque, int nbRoues);
+    ~Voiture() noexcept;
 
     float accelerate(float delta);
     void fillUp();
@@ -20,7 +24,8 @@ private:
     int m_nb_roues{4};
     short m_fuel_level{100};
     float m_speed{0};
-    std::string m_marque;
+    std::string m_marque{"Fiat"};
+    int *m_mon_pointeur;
 };
 
 #endif
