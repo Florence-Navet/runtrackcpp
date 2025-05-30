@@ -12,7 +12,10 @@ include_directories(src)
 # Exécutable
 add_executable(TODO
 
-    src/task_manager.cpp
+
+    src/vehicule.cpp
+    src/voiture.cpp
+    src/rouge.cpp
     src/main.cpp
 )
 
