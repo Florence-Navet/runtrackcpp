@@ -10,9 +10,9 @@ public:
     /// @param marque
     /// @param nbRoues
     Voiture(std::string marque, int nbRoues);
-    Voiture(int nb_roues, short fuel_level);
+    Voiture(int nbRoues, short fuelLevel);
     Voiture(const Voiture &Voiture);
-    Voiture(int nb_roues, short fuel_level, float speed);
+    Voiture(int nbRoues, short fuelLevel, float speed);
 
     ~Voiture() noexcept;
 
@@ -22,15 +22,15 @@ public:
 
     // accesseurs et mutateurs
     const int &nb_roues() const;
-    void setNbRoues(int nb_roues);
+    void setNbRoues(int nbRoues);
 
 private:
     // ATtributes
-    int m_nb_roues{4};
-    short m_fuel_level{100};
+    int m_nbRoues{4};
+    short m_fuelLevel{100};
     float m_speed{0};
     std::string m_marque{"Fiat"};
-    int *m_mon_pointeur;
+    // int *m_mon_pointeur;
 };
 
 #endif

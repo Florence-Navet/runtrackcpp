@@ -11,6 +11,9 @@ int main()
     // Voiture *Porsche_rouge = new Voiture("Porsche", 5);
 
     Voiture renault_adeline{5, 75};
+    Voiture renault_adeline1{2, 25};
+    Voiture renault_adeline2{1, 20};
+    Voiture renault_adeline3{4, 35};
     renault_adeline.printVoiture();
     Voiture voiture2{renault_adeline};
     voiture2.printVoiture();

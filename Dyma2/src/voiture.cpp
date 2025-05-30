@@ -2,35 +2,35 @@
 #include <iostream>
 #include <exception>
 
-Voiture::Voiture(std::string marque, int nbRoues) : m_marque{marque},
-                                                    m_nb_roues{nbRoues}
+Voiture::Voiture(std::string marque, int nbRoues) : Voiture{nbRoues, 55}
 {
     std::cout << "Ceci est le constructeur\n";
     std::cout << "Cette voiture est de marque : "
               << m_marque << " et possède "
               << nbRoues << " roues\n";
-    m_mon_pointeur = new int;
-}
+    // std::cout << "J'aime ma voiture avec " << nbRoues << " roues\n";
+    // m_mon_pointeur = new int;
+    // std::cout << "J'aime ma voiture avec " << nbRoues << "roues";
+};
 
-Voiture::Voiture(int nb_roues, short fuel_level) : m_nb_roues{nb_roues},
-                                                   m_fuel_level{fuel_level}
-
+Voiture::Voiture(int nbRoues, short fuelLevel) : Voiture{nbRoues, fuelLevel, 80}
 {
+    // std::cout << "J'aime ma voiture avec " << nbRoues << " roues\n";
 }
-
-Voiture::Voiture(const Voiture &Voiture) : m_nb_roues{Voiture.m_nb_roues}, m_fuel_level{Voiture.m_fuel_level}
+Voiture::Voiture(int nbRoues, short fuelLevel, float speed)
+{
+    std::cout << "J'aime ma voiture avec " << nbRoues << " roues\n";
+}
+/// @brief constructeur de copie du constructeur Voiture(int nbRoues, short fuelLevel);
+/// @param Voiture pour recopier nbroues et niveau fuel
+Voiture::Voiture(const Voiture &Voiture) : m_nbRoues{Voiture.m_nbRoues}, m_fuelLevel{Voiture.m_fuelLevel}
 {
     std::cout << "Constructeur de copie appelée\n";
 }
 
-Voiture::Voiture(int nb_roues, short fuel_level, float speed)
-{
-    std::cout << "J'aime ma voiture avec " << nb_roues << "roues" << " qui roule à " << speed << " km/h\n";
-}
-
 Voiture::~Voiture()
 {
-    delete m_mon_pointeur;
+    // delete m_mon_pointeur;
     std::cout << "Ceci est le destructeur de la voiture : "
               << m_marque << "\n";
     // base_de_donnees.disconnect();
@@ -47,20 +47,21 @@ void Voiture::fillUp()
 
 void Voiture::printVoiture()
 {
-    std::cout << "Cette voiture possède " << m_nb_roues << " roues et un niveau d'essence de " << m_fuel_level << "\n";
+    std::cout << "Cette voiture possède " << m_nbRoues << " roues et un niveau d'essence de " << m_fuelLevel << "\n";
 }
 
 const int &Voiture::nb_roues() const
 {
-    // TODO: insert return statement here
+    std::cout << "Cette voiture possède " << m_nbRoues << "roues \n";
+    return m_nbRoues;
 }
 
-void Voiture::setNbRoues(int nb_roues)
+void Voiture::setNbRoues(int nbRoues)
 {
-    if (nb_roues > 0 & nb_roues < 8)
+    if (nbRoues > 0 & nbRoues < 8)
     {
         // recalculer capacite voiture
         fillUp();
-        m_nb_roues = nb_roues;
+        m_nbRoues = nbRoues;
     }
 }
