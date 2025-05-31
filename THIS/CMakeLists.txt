@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(HERITAGE VERSION 0.1.0 LANGUAGES CXX)
+project(TODO VERSION 0.1.0 LANGUAGES CXX)
 
 # Active le standard C++ 17
 set(CMAKE_CXX_STANDARD 20)
@@ -10,13 +10,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(src)
 
 # Exécutable
-add_executable(HERITAGE
+add_executable(TODO
 
-
-    src/vehicule.cpp
-    src/voiture.cpp
-    src/moto.cpp
-    src/rouge.cpp
+    src/person.cpp
     src/main.cpp
 )
 
