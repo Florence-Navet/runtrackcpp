@@ -1,5 +1,7 @@
-class Vehicule
+#ifndef VEHICULE_H
+#define VEHICULE_H
 
+class Vehicule
 {
 public:
     int m_public;
@@ -10,7 +12,8 @@ private:
     short m_nb_roues{0};
 
 protected:
-    int m_protected{0}; // accessible prive et enfants
+    int m_protected{0}; // accessible privé et enfants
+
 public:
     Vehicule();
     float vitesse();
@@ -18,4 +21,7 @@ public:
     short nbRoues();
 
     void afficher();
+    virtual void effectuerEntretien();
 };
+
+#endif

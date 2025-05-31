@@ -25,3 +25,7 @@ void Vehicule::afficher()
 {
     std::cout << "Je suis un véhicule\n";
 }
+void Vehicule::effectuerEntretien()
+{
+    std::cout << "Faire l'entretien du vehicule : \n";
+}
