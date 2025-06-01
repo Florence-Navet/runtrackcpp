@@ -21,7 +21,11 @@ public:
     short nbRoues();
 
     void afficher();
-    virtual void effectuerEntretien();
+    /****************************************************************
+    classe abstraite pure : une classe devient abstraite quand 
+    au moins une de ses fonctions devient abstraite pure avec =0
+    ****************************************************************/
+    virtual void effectuerEntretien() = 0;
 };
 
 #endif

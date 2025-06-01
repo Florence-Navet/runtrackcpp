@@ -36,3 +36,4 @@ Person &Person::retirer(int value)
 }
 
 // chainage de fonction
+
