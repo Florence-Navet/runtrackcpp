@@ -6,6 +6,8 @@ Voiture::Voiture()
     m_public = 4;
     m_protected = 10;
     std::cout << "Constructeur voiture\n";
+    marquePneus = "Michelin";
+    // type_vehicule = Voiture;
 }
 
 void Voiture::afficher()
@@ -17,4 +19,9 @@ void Voiture::afficher()
 void Voiture::effectuerEntretien()
 {
     std::cout << "Entretien de la voiture \n";
+}
+
+void Voiture::changerPneus()
+{
+    std::cout <<"changement des pneus  : " <<marquePneus << "\n";
 }
