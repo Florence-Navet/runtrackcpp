@@ -3,6 +3,7 @@
 
 class Vehicule
 {
+    // enum VehiculeType(Voiture, Bateau, Moto);
 public:
     int m_public;
 
@@ -13,9 +14,11 @@ private:
 
 protected:
     int m_protected{0}; // accessible privé et enfants
+    
 
 public:
     Vehicule();
+    // VehiculeType type_vehicule;
     float vitesse();
     int autonomie();
     short nbRoues();
@@ -25,7 +28,8 @@ public:
     classe abstraite pure : une classe devient abstraite quand 
     au moins une de ses fonctions devient abstraite pure avec =0
     ****************************************************************/
-    virtual void effectuerEntretien() = 0;
+    // virtual void effectuerEntretien() = 0;
+    virtual void effectuerEntretien();
 };
 
 #endif
