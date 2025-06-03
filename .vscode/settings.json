@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Exception/",
-  "cmake.buildDirectory": "E:/CODEGITHUB/Codelaplateforme/2025githubflopython/c++/runtrackcpp/Exception/build",
+  "cmake.sourceDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/Templates",
+  "cmake.buildDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/Templates/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",
@@ -84,6 +84,7 @@
     "regex": "cpp",
     "chrono": "cpp",
     "filesystem": "cpp",
-    "forward_list": "cpp"
+    "forward_list": "cpp",
+    "strstream": "cpp"
   }
 }
