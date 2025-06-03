@@ -174,6 +174,17 @@ std::setlocale(LC_ALL, ".utf8");
 
 Lien site de rérérence
 
-```
-https://en.cppreference.com/w/cpp/error/exception.html
-```
+```bash
+https://en.cppreference.com/w/cpp/error/exception.html  
+```  
+  
+---  
+pour les liens des concepts :   
+  
+```bash
+Voici un lien vers les concepts standards : https://en.cppreference.com/mwiki/index.php?title=cpp/concepts
+```   
+  
+---  
+  
+

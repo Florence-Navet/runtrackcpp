@@ -1,6 +1,6 @@
 {
-  "cmake.sourceDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/Templates",
-  "cmake.buildDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/Templates/build",
+  "cmake.sourceDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/concept",
+  "cmake.buildDirectory": "C:/Users/enola/OneDrive/Desktop/Githubplateforme/2025/c++/runtrackcpp/concept/build",
   "terminal.integrated.env.windows": {
     "MSYSTEM": "MINGW64",
     "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}",

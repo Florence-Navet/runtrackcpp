@@ -53,6 +53,13 @@ void Tableau<T, taille>::afficher() {
     }
     std::cout << std::endl;
 }
+template<>
+void Tableau<bool>::afficher() {
+    for (int i = 0; i < this->getLength(); i++) {
+        std::cout << (m_data[i] ? "1" : "0") << " ";
+    }
+    std::cout << std::endl;
+}
 
 // Surcharge de l'opérateur []
 template<typename T, int taille>
