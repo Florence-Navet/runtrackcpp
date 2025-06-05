@@ -14,7 +14,7 @@ add_executable(foncteur
 
 
 
-    src/foncteurclass.cpp
+    src/main.cpp
 )
 
 

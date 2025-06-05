@@ -24,12 +24,14 @@ public:
     short nbRoues();
 
     void afficher();
+    static float convertirKmEnNoeuds(float vitesse_en_kmh);
     /****************************************************************
     classe abstraite pure : une classe devient abstraite quand 
     au moins une de ses fonctions devient abstraite pure avec =0
     ****************************************************************/
     // virtual void effectuerEntretien() = 0;
     virtual void effectuerEntretien();
+    static inline int nb{0};
 };
 
 #endif

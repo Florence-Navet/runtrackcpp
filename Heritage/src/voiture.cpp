@@ -30,10 +30,10 @@ void Voiture::changerPneus()
     std::cout <<"changement des pneus  : " <<marquePneus << "\n";
 }
 // 💡 Spécialisation template pour afficher des valeurs booléennes
-template<>
-void Voiture::afficher<bool>() {
-    for (int i = 0; i < this->getLength(); i++) {
-        std::cout << (data[i] ? "1" : "0") << " ";
-    }
-    std::cout << std::endl;
-}
+// template<>
+// void Voiture::afficher<bool>() {
+//     for (size_t i = 0; i < data.size(); i++) {
+//         std::cout << (data[i] ? "1" : "0") << " ";
+//     }
+//     std::cout << std::endl;
+// }
