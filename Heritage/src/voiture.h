@@ -15,6 +15,9 @@ class Voiture : public Vehicule, public Rouge
     void effectuerEntretien();
     void changerPneus();
 
+    template<typename T>
+    void afficher();
+
     private:
     std::string marquePneus;
 };
